@@ -22,7 +22,7 @@
 		<Reference Include="Mono.Security">
 			<HintPath>$(GameAssemblyPath)\Mono.Security.dll</HintPath>
 		</Reference>
-		<Reference Include="Oculus.Platform">
+		public string PhotosPath => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "MonkePhone", "Photos");
 			<HintPath>$(GameAssemblyPath)\Oculus.Platform.dll</HintPath>
 		</Reference>
 		<Reference Include="Oculus.VR">
